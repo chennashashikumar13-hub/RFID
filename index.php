@@ -175,24 +175,6 @@ function sanitizeInput($input) {
                 opacity: 1;
             }
         }
-
-        .demo-credentials {
-            background: #f5f5f5;
-            border-left: 4px solid #667eea;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 20px;
-            font-size: 12px;
-        }
-
-        .demo-credentials p {
-            margin: 0;
-            color: #666;
-        }
-
-        .demo-credentials strong {
-            color: #333;
-        }
     </style>
 </head>
 <body>
@@ -226,12 +208,6 @@ function sanitizeInput($input) {
                 <i class="fas fa-sign-in-alt"></i> Login
             </button>
         </form>
-
-        <div class="demo-credentials">
-            <p><strong><i class="fas fa-info-circle"></i> Demo Credentials:</strong></p>
-            <p><strong>Username:</strong> admin</p>
-            <p><strong>Password:</strong> password</p>
-        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
